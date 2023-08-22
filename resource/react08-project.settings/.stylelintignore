@@ -1,0 +1,6 @@
+**/*.min.css
+**/dist/
+**/vendor/
+**/vendors/
+**/font/
+**/fonts/
