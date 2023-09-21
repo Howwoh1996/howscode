@@ -22,6 +22,12 @@ jobs:
       - name: Build 🏗️
         run: npm run build
 
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.email "howwoh1996@gmail.com"
+          git config --global user.name "Howwoh1996"
+          npm run deploy
+
       - name: Deploy 🚀
         run: |
           npm install -g gh-pages
