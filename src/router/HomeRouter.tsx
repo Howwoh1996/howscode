@@ -1,6 +1,6 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import SideProject from '../pages/SideProject';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import SideProject from "../pages/SideProject";
 
 const HomeRouter = () => {
   return (

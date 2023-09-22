@@ -1,7 +1,7 @@
-import Layout from 'antd/es/layout/layout';
-import React from 'react';
-import HomeRouter from '../router/HomeRouter';
-import MyHeader from './home/MyHeader';
+import Layout from "antd/es/layout/layout";
+import React from "react";
+import HomeRouter from "../router/HomeRouter";
+import MyHeader from "./home/MyHeader";
 
 const Home = () => {
   return (

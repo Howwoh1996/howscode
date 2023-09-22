@@ -1,7 +1,7 @@
 // ResumeCard.tsx
-import React from 'react';
-import { Card, Avatar, Typography } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import React from "react";
+import { Card, Avatar, Typography } from "antd";
+import { UserOutlined } from "@ant-design/icons";
 
 const { Title, Paragraph } = Typography;
 
