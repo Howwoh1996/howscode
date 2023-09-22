@@ -28,7 +28,7 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "howwoh1996@gmail.com"
-          git config --global user.name "Howwoh1996"
+          git config --global user.name "howwoh1996@gmail.com"
           gh-pages -d build --repo=https://${{ secrets.GH_TOKEN }}@github.com/howwoh1996/howscode.git
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
