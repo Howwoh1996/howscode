@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/howscode/static/css/main.073c9b0a.css",
-    "main.js": "/howscode/static/js/main.f59332d4.js",
+    "main.css": "/howscode/static/css/main.50fdec3f.css",
+    "main.js": "/howscode/static/js/main.9002a592.js",
     "static/js/787.c0190055.chunk.js": "/howscode/static/js/787.c0190055.chunk.js",
     "static/media/bct.jpg": "/howscode/static/media/bct.8d677934bc06b3883ff5.jpg",
+    "static/media/notion-avatar-1695404119050.png": "/howscode/static/media/notion-avatar-1695404119050.b18c3085f73041e25b51.png",
     "index.html": "/howscode/index.html",
-    "main.073c9b0a.css.map": "/howscode/static/css/main.073c9b0a.css.map",
-    "main.f59332d4.js.map": "/howscode/static/js/main.f59332d4.js.map",
+    "main.50fdec3f.css.map": "/howscode/static/css/main.50fdec3f.css.map",
+    "main.9002a592.js.map": "/howscode/static/js/main.9002a592.js.map",
     "787.c0190055.chunk.js.map": "/howscode/static/js/787.c0190055.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f59332d4.js"
+    "static/css/main.50fdec3f.css",
+    "static/js/main.9002a592.js"
   ]
 }
