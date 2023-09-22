@@ -9,10 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3 # you might want to use v2 here, as v3 is not released yet.
+        with:
+          # Use SSH Key
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3 # you might want to use v2 here, as v3 is not released yet.
         with:
           node-version: '16'
 
@@ -28,13 +31,5 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "howwoh1996@gmail.com"
-          git config --global user.name "howwoh1996@gmail.com"
-          gh-pages -d build --repo=https://${{ secrets.GH_TOKEN }}@github.com/howwoh1996/howscode.git
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-
-      - name: Deploy 🚀
-        run: |
-          npm install -g gh-pages
-          gh-pages -d build
+          git config --global user.name "Howwoh1996"
+          gh-pages -d build --repo=git@github.com:howwoh1996/howscode.git # use SSH instead of HTTPS
