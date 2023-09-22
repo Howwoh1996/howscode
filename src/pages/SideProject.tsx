@@ -15,6 +15,7 @@ import {
 import PropTypes from 'prop-types';
 import bctImage from '../image/bct.jpg';
 import ResumeCard from './SideProject/ResumeCard';
+import SkillTree from './SkillTree/SkillTree2';
 const { Meta } = Card;
 
 const SideProject = () => {
@@ -147,7 +148,7 @@ const SideProject = () => {
         title: 'SKill Tree',
         description: '軟工技能樹',
         imageURL: '',
-        info: '',
+        info: '軟體工程博大精深',
         display: '',
         skill: '',
       },
@@ -162,6 +163,14 @@ const SideProject = () => {
       {
         title: 'How to Be SE',
         description: '軟工之路',
+        imageURL: '',
+        info: '',
+        display: '',
+        skill: '',
+      },
+      {
+        title: 'GH-react 大成功',
+        description: '0922 偉大的一天 終於上線嚕～',
         imageURL: '',
         info: '',
         display: '',
@@ -235,6 +244,7 @@ const SideProject = () => {
           </div>
         </Col>
       </Row>
+      <SkillTree/>
     </div>
   );
 };
