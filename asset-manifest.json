@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/howscode/static/css/main.073c9b0a.css",
-    "main.js": "/howscode/static/js/main.75bb011e.js",
+    "main.js": "/howscode/static/js/main.f59332d4.js",
     "static/js/787.c0190055.chunk.js": "/howscode/static/js/787.c0190055.chunk.js",
     "static/media/bct.jpg": "/howscode/static/media/bct.8d677934bc06b3883ff5.jpg",
     "index.html": "/howscode/index.html",
     "main.073c9b0a.css.map": "/howscode/static/css/main.073c9b0a.css.map",
-    "main.75bb011e.js.map": "/howscode/static/js/main.75bb011e.js.map",
+    "main.f59332d4.js.map": "/howscode/static/js/main.f59332d4.js.map",
     "787.c0190055.chunk.js.map": "/howscode/static/js/787.c0190055.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.75bb011e.js"
+    "static/js/main.f59332d4.js"
   ]
 }
