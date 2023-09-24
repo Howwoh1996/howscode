@@ -29,6 +29,7 @@ const SideProject = () => {
     info: string;
     skill: string;
     display: string;
+    key: string;
   }
   const SPCard: React.FC<Props> = (props) => {
     return (
@@ -128,6 +129,7 @@ const SideProject = () => {
         前端:HTML,CSS,JavaScript,JQuery
         後端:網頁瀏覽器與firebase結合使用 達成在瀏覽器執行的server,並且有能力與前端進行雙向溝通
         資料庫:Firebase的RealTime Database `,
+        key:"BadChillTon",
       },
       {
         title: "BoardGameCenter",
@@ -136,6 +138,7 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"BoardGameCenter",
       },
       {
         title: "HackMD Note",
@@ -144,6 +147,7 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"HackMD Note",
       },
       {
         title: "SKill Tree",
@@ -152,6 +156,7 @@ const SideProject = () => {
         info: "軟體工程博大精深",
         display: "",
         skill: "",
+        key:"SKill Tree",
       },
       {
         title: "How's Code",
@@ -160,6 +165,7 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"How's Code",
       },
       {
         title: "How to Be SE",
@@ -168,6 +174,7 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"How to Be SE",
       },
       {
         title: "GH-react 大成功",
@@ -176,6 +183,7 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"GH-react 大成功",
       },
       {
         title: "Under Construction",
@@ -184,18 +192,16 @@ const SideProject = () => {
         info: "",
         display: "",
         skill: "",
+        key:"Under Construction1",
       },
     ];
     return (
       <>
         {sp_data.map((e, index) => {
           return (
-            <>
-              {/* {index%3==0?<Col span={24} key={index}></Col>:""} */}
-              <Col>
+              <Col key={e.key}>
                 <SPCard {...e} />
               </Col>
-            </>
           );
         })}
       </>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Header } from "antd/es/layout/layout";
 import { Col, MenuProps, Row } from "antd";
 import { Breadcrumb, Layout, Menu, theme } from "antd";
@@ -7,6 +7,7 @@ import {
   NotificationOutlined,
   UserOutlined,
 } from "@ant-design/icons";
+import FirebaseHandler from "shared/firebaseHanddler";
 
 const MyHeader: React.FC = () => {
   const { Header, Content, Footer, Sider } = Layout;
@@ -28,6 +29,10 @@ const MyHeader: React.FC = () => {
       label: `技能樹`,
     },
   ];
+  useEffect(()=>{
+    const firebaseHandler = new FirebaseHandler();
+    firebaseHandler.readData('feedback').then(e=>console.log(e))
+  },[])
 
   return (
     <Header>
